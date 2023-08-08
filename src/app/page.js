@@ -11,7 +11,7 @@ export default function Login() {
   const handlerLogin = (e) => {
     e.preventDefault();
     handlerAcessUser();
-    push('/pages/dashboard');
+    push('/pages/register');
   }
 
 
